@@ -5,8 +5,6 @@ permissions:
   pull-requests: read
 
 on:
-  schedule:
-    - cron: '0 */2 * * *' # Every two hours
   workflow_dispatch:
     inputs:
       force_pull:
